@@ -42,3 +42,5 @@ dump/
 *.save
 *.swp
 *.tar.gz
+
+elasticAuthorisation.json
