@@ -6,7 +6,7 @@ var fs = require('fs');
    { from: process.stdin },
      function(item, callback) {
          // One BSON document, converted as a JavaScript object 
-             fs.appendFileSync('dump/github/json/new_new_repos.json', JSON.stringify(item) + ',\n');
+             fs.appendFileSync('dump/github/json/new_new_repos.json', JSON.stringify(item) + '\n');
                  return callback(null);
                    },
                      function(err) {
